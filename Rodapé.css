@@ -1,0 +1,14 @@
+
+/* configurações do rodapé */
+
+footer {
+    text-align: center;
+    background: url('BG.jpg');
+    padding: 40px 0;
+}
+
+#Copyright {
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}

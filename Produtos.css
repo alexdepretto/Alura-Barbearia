@@ -1,0 +1,56 @@
+
+/* Configurações do Conteúdo */
+
+.pacotes {
+    width: 940px;
+    margin: 0 auto 0 auto;
+    padding: 50px 0;
+}
+
+.pacotes li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /*background: lightgray;*/
+    margin: 0  1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: black 3px solid;
+    border-radius: 10px;
+}
+
+.pacotes h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descrição { font-size: 15px; }
+
+.preço {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Configurações do Mouse */
+
+.pacotes li:hover {
+    border-color: darkgreen;
+    color: darkgreen;
+}
+
+.pacotes li:active {
+    border-color: blueviolet;
+    color: blueviolet;
+}
+
+.pacotes li:hover h2 {
+    font-size: 35px;
+    color: darkgreen;
+}
+
+.pacotes li:active h2 {
+    font-size: 35px;
+    color: blueviolet;
+}
